@@ -7,9 +7,12 @@ if (name == "Chevrolet Silverado"|| name == "GMC Sierra"||name == "Dodge Rum"|| 
   confirm("Great choice, Press OK to confirm!");}
   else if (name !== "Chevrolet Silverado"||
 name !== "GMC Sierra"|| name !== "Dodge Rum"|| name !== "Ford F150" ){
+
   alert("Unfortunately we don't have this truck!")
     
   }
+
+    
   }
 
 function printing(){
@@ -20,6 +23,7 @@ function printing(){
     for(var i= 0; i<clientInput; i++){
       document.write( '<img src="https://img-new.cgtrader.com/items/139754/truck_tire_3d_model_fbx_78f11c72-f5e5-441c-8ba0-bff03f4af295.jpg" height="50px" width="50px" />' )
     }
+
 }
 
     welcoming();
@@ -28,6 +32,7 @@ alert("You can procced to the Tire shop")
 var clientInput = prompt("How many tires do you want?")
 
   printing();
+
 
 console.log(name)
 
